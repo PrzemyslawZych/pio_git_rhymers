@@ -3,9 +3,9 @@ package edu.kis.vh.nursery;
 public class DefaultCountingOutRhymer {
 
     private static final int CAPACITY = 12;
-    public static final int CALLCHECK = -1;
-    public static final int FULLINDEX = 11;
-    public static final int ERROR = -1;
+    private static final int CALLCHECK = -1;
+    private static final int FULLINDEX = 11;
+    private static final int ERROR = -1;
     final private int[] numbers = new int[CAPACITY];
 
     private int total = -1;
