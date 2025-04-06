@@ -3,6 +3,7 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
     private static final int DEFAULT_RETURN_VALUE = -1;
     Node last;
+    // TODO: Niepotrzebne pole – nie jest nigdzie używane
     int i;
 
     public void push(int i) {

@@ -10,7 +10,7 @@ public class DefaultCountingOutRhymer {
     public static final int MAX_STACK_INDEX = MAX_STACK_CAPACITY - 1;
     public static final int DEFAULT_RETURN_VALUE = -1;
     private final int[] numbers = new int[MAX_STACK_CAPACITY];
-
+    // TODO: Pole powinno być prywatne – narusza hermetyzację
     public int total = EMPTY_RHYMER_INDICATOR;
     /**
      * Dodaje liczbę na stos, jeśli nie jest pełny.

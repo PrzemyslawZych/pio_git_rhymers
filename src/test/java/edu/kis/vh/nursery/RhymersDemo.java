@@ -9,7 +9,7 @@ class RhymersDemo {
         Rhymersfactory factory = new DefaultRhymersFactory();
         testRhymers(factory);
     }
-
+    // TODO: Metoda jest zbyt długa – można rozdzielić na mniejsze np. wczytywanie i wypisywanie
     private static void testRhymers(Rhymersfactory factory) {
         DefaultCountingOutRhymer[] rhymers = {
                 factory.GetStandardRhymer(),
