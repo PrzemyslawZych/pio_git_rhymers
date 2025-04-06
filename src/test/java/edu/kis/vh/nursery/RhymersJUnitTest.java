@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+// Punkt 15: Projekt poprawny – testy jednostkowe przechodzą bez błędów
 import org.junit.Assert;
 import org.junit.Test;
 
