@@ -1,0 +1,12 @@
+# Foldery generowane przez IDE
+.idea/
+.vscode/
+*.iml
+
+# Foldery z wynikami kompilacji
+bin/
+target/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
